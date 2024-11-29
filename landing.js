@@ -1,4 +1,4 @@
-
+                                                                  mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
   // Mobile menu toggle
   function toggleMenu() {
     const menu = document.getElementById('mobileMenu');
@@ -19,4 +19,4 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             behavior: 'smooth'
         });
     });
-});
+});                                                                                                                                                 
