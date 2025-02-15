@@ -1,0 +1,20 @@
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&q=80');
+    background-size: cover;
+    background-position: center;
+}
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+.property-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+}
+.custom-shadow {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
