@@ -3,41 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Estate</title>
+    <title>Real Estate Landing</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Navigation Bar -->
     <header>
-        <div class="logo">REALURE</div>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Property</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <div class="logo">REALURE</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Property</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <p class="small-text">We are offering the</p>
-            <h1 class="main-heading">Best Real Estate Deals</h1>
-            <p class="description">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. 
-                Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <a href="#" class="btn">More Details</a>
+            <h5>We are offering the</h5>
+            <h1>Best Real Estate Deals</h1>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <button class="btn">More Details</button>
         </div>
     </section>
 
-    <!-- Search Bar Positioned Between Slides -->
-    <div class="search-container">
-        <div class="search-bar">
+    <section class="search-bar">
+        <div class="search-container">
             <select>
                 <option>Location</option>
                 <option>New York</option>
@@ -55,33 +50,318 @@
                 <option>For Sale</option>
                 <option>For Rent</option>
             </select>
-            <button>Search</button>
+            <button class="search-btn">Search</button>
         </div>
-    </div>
+    </section>
 
-    <!-- Second Slide: Mission Section -->
-    <section class="mission">
-        <h2>Our mission is to redefine real estate in the customer's favor.</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <div class="stats">
-            <div class="stat-box">
-                <h3>5.2M</h3>
-                <p>Owned from properties</p>
+
+    <section class="mission-section">
+        <div class="mission-content">
+            <h2>Our mission is to redefine real estate</h2>
+            <p>in the customer's favor .</p>
+            <p class="lorem-ipsum">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="stats-grid">
+            <div class="stat-card">
+                <h3 class="stat-number">5.2M</h3>
+                <p class="stat-title">Owned from properties transactions</p>
+                <p class="stat-description">Pellentesque egestas elementum egestas faucibus sem .</p>
             </div>
-            <div class="stat-box">
-                <h3>7K+</h3>
-                <p>Properties For</p>
+            <div class="stat-card">
+                <h3 class="stat-number">7K +</h3>
+                <p class="stat-title">Properties For Buy</p>
+                <p class="stat-description">Pellentesque egestas elementum egestas faucibus sem .</p>
             </div>
-            <div class="stat-box">
-                <h3>4K+</h3>
-                <p>Properties Buy</p>
+            <div class="stat-card">
+                <h3 class="stat-number">4K +</h3>
+                <p class="stat-title">Properties Buy Sell</p>
+                <p class="stat-description">Pellentesque egestas elementum egestas faucibus sem .</p>
             </div>
-            <div class="stat-box">
-                <h3>221+</h3>
-                <p>Daily Completed</p>
+            <div class="stat-card">
+                <h3 class="stat-number">221+</h3>
+                <p class="stat-title">Daily Completed Transactions</p>
+                <p class="stat-description">Pellentesque egestas elementum egestas faucibus sem .</p>
             </div>
         </div>
     </section>
 
+    <section class="featured-properties-section">
+        <div class="featured-properties-header">
+            <h2>Featured Properties</h2>
+            <p class="lorem-ipsum">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <img src="fp1.jpg" alt="Skyper Pool Apartment">
+                </div>
+                <div class="property-details">
+                    <h3>Skyper Pool Apartment</h3>
+                    <p class="property-location">IILM University</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 450</li>
+                    </ul>
+                    <p class="property-price">$ 280,000</p>
+                </div>
+            </div>
+            <div class="property-card">
+                <div class="property-image">
+                    <span class="label for-rent">FOR RENT</span>
+                    <img src="fp2.jpg" alt="North Dillard Street">
+                </div>
+                <div class="property-details">
+                    <h3>North Dillard Street</h3>
+                    <p class="property-location">IIT Madras</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 400</li>
+                    </ul>
+                    <p class="property-price">$ 250 / month</p>
+                </div>
+            </div>
+            <div class="property-card featured">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <span class="label featured-label">FEATURED</span>
+                    <img src="fp3.jpg" alt="Eaton Garth Penthouse">
+                </div>
+                <div class="property-details">
+                    <h3>Eaton Garth Penthouse</h3>
+                    <p class="property-location">Spaze Privvy</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 450</li>
+                    </ul>
+                    <p class="property-price">$ 180,000</p>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>Discover a place you'll</h1>
+            <h2>love to live</h2>
+            <p>Pellentesque egestas elementum egestas faucibus sem . Velit nunc egestas ut morbi Leo diam diam</p>
+            <a href="#" class="view-properties-button">View Properties</a>
+        </div>
+    </section>
+
+    <section class="recent-properties-section">
+        <div class="recent-properties-header">
+            <h2>Recent Properties for Sale</h2>
+            <p class="lorem-ipsum">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="property-grid">
+            <div class="property-card">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <img src="fp1.jpg" alt="Skyper Pool Apartment">
+                </div>
+                <div class="property-details">
+                    <h3>Skyper Pool Apartment</h3>
+                    <p class="property-location">1020 Bloomingdale Ave</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 450</li>
+                    </ul>
+                    <p class="property-price">$ 280,000</p>
+                </div>
+            </div>
+            <div class="property-card featured">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <span class="label featured-label">FEATURED</span>
+                    <img src="fp2.jpg" alt="Eaton Garth Penthouse">
+                </div>
+                <div class="property-details">
+                    <h3>Eaton Garth Penthouse</h3>
+                    <p class="property-location">7722 18th Ave , Brooklyn</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 450</li>
+                    </ul>
+                    <p class="property-price">$ 180,000</p>
+                </div>
+            </div>
+            <div class="property-card featured">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <span class="label featured-label">FEATURED</span>
+                    <img src="r3.jpg" alt="Diamond Manor Apartment">
+                </div>
+                <div class="property-details">
+                    <h3>Diamond Manor Apartment</h3>
+                    <p class="property-location">7802 20th Ave , Brooklyn</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 2</li>
+                        <li><img src="icon-size.png" alt="Size"> 500</li>
+                    </ul>
+                    <p class="property-price">$ 259,000</p>
+                </div>
+            </div>
+            <div class="property-card featured">
+                <div class="property-image">
+                    <span class="label for-sale">FOR SALE</span>
+                    <span class="label featured-label">FEATURED</span>
+                    <img src="r4.jpg" alt="Comfortable Villa Green">
+                </div>
+                <div class="property-details">
+                    <h3>Comfortable Villa Green</h3>
+                    <p class="property-location">214 Kinge Hwy , Brooklyn</p>
+                    <ul class="property-amenities">
+                        <li><img src="icon-bed.png" alt="Bed"> 4</li>
+                        <li><img src="icon-bath.png" alt="Bath"> 1</li>
+                        <li><img src="icon-size.png" alt="Size"> 450</li>
+                    </ul>
+                    <p class="property-price">$ 158,000</p>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <span class="active"></span>
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </section>
+
+
+
+    <section class="interior-section">
+        <div class="interior-content">
+            <h2>Explore the Interior of the</h2>
+            <h2>Property</h2>
+            <div class="interior-preview">
+                <img src="placeholder-3d-view.png" alt="3D Interior Preview">
+            </div>
+            <p class="coming-soon">3D view coming soon ....</p>
+        </div>
+    </section>
+
+    <section class="global-news-section">
+        <div class="global-news-header">
+            <h2>Global News</h2>
+            <p class="lorem-ipsum">Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="news-articles">
+            <div class="news-article">
+                <h3>Day One : Trump Issues Executive Order on Emergency Price Relief for U.S. Housing</h3>
+                <p>On his first day of office during his second term , President Trump took significant action on American housing , fulfilling a key
+                    campaign promise . On the evening of Monday , January 20 , 2025 , he signed an executive order aimed at addressing inflation
+                    and providing housing relief .</p>
+            </div>
+            <div class="news-article">
+                <h3>Housing Starts Spike 15 Percent in America in Late 2024</h3>
+                <p>A new report from the U.S. Department of Housing and Urban Development and the U.S. Census Bureau reveals that housing
+                    starts rose by 15.8 % in December , reaching a seasonally adjusted annual rate of 1.50 million units the highest level since
+                    February 2024 .</p>
+            </div>
+            <div class="news-article">
+                <h3>Day One : Trump Issues Executive Order on Emergency Price Relief for U.S. Housing</h3>
+                <p>On his first day of office during his second term , President Trump took significant action on American housing , fulfilling a key
+                    campaign promise . On the evening of Monday , January 20 , 2025 , he signed an executive order aimed at addressing inflation
+                    and providing housing relief .</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="team-section">
+        <div class="team-header">
+            <h2>Meet Our Team</h2>
+            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint . Velit officia consequat duis enim
+                velit mollit . Exercitation veniam consequat sunt nostrud amet .</p>
+        </div>
+        <div class="team-grid">
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="t1.png" alt="Gaurangi">
+                </div>
+                <h3>Gaurangi</h3>
+                <p class="member-title">Founder</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="t5.png" alt="Shailesh">
+                </div>
+                <h3>Shailesh</h3>
+                <p class="member-title">UI / UX Designer</p>
+                
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="t2.png" alt="Lavanya">
+                </div>
+                <h3>Lavanya</h3>
+                <p class="member-title">Backend Developer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="t4.png" alt="Ayush Dwivedi">
+                </div>
+                <h3>Ayush Dwivedi</h3>
+                <p class="member-title">Full Stack Developer</p>
+            </div>
+            <div class="team-member">
+                <div class="member-image">
+                    <img src="t3.png" alt="Yug">
+                </div>
+                <h3>Yug</h3>
+                <p class="member-title">Frontend Developer</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section">
+        <div class="newsletter-content">
+            <i class="far fa-paper-plane newsletter-icon"></i>
+            <h2>Stay Up to Date</h2>
+            <p>Subscribe to our newsletter to receive our weekly feed</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your e-mail">
+                <button type="submit">Send <i class="fas fa-arrow-right"></i></button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <p class="copyright">Copyright © 2024. Realure</p>
+            <p class="footer-logo">REALURE</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
